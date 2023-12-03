@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
     <style>
         .bg-mable {
-            background-color: #030302
+            background-color: #4D4239
         }
 
         .text-xxs {
@@ -316,7 +316,7 @@
 
             <!-- Ringkasan Order -->
             <div class="border border-gray-300 rounded-xl p-5 flex flex-col items-start w-11/12 h-[18.317rem] justify-between mt-3">
-                <div class="my-3">
+                <div class="my-3 w-full">
                     <div class="text-lg font-semibold mb-3">
                         Ringkasan
                     </div>
