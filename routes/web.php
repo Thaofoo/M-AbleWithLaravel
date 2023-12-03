@@ -14,5 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
+
+Route::get('/product', function () {
+    return view('index');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});
+
+Route::get('/waiting', function () {
+    return view('waitingpayment');
+});
+
+Route::get('/checkout/waiting', function () {
+    return view('waiting');
+});
+
