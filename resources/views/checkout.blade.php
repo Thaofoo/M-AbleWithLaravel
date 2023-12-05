@@ -27,6 +27,8 @@
   </head>
   <body class="font-poppins">
 
+    <x-navbar/>
+
     <!-- List Barang Checkout -->
     <div class="mt-16 ">
         <!-- List Header -->
