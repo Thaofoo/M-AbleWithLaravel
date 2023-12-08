@@ -10,9 +10,10 @@
 </head>
 <body>
     <!-- Navbar Start -->
+    <x-navbar/>
     <!-- Navbar End -->
     <!-- Content Start -->
-    <div class="flex flex-row justify-evenly">
+    <div class="flex flex-row justify-evenly mt-32">
         <div class="blank">
 
         </div>

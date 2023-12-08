@@ -15,21 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('landing');
-});
+})->name('landing');
 
 Route::get('/product', function () {
     return view('product');
-});
+})->name('product');
 
 Route::get('/checkout', function () {
     return view('checkout');
-});
+})->name('checkout');
 
 Route::get('/waiting', function () {
     return view('waitingpayment');
-});
+})->name('waitingPayment');
 
 Route::get('/checkout/waiting', function () {
     return view('waiting');
-});
+})->name('waiting');
 

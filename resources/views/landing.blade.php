@@ -14,13 +14,11 @@
 </head>
 
 <body>
-    <div class="flex justify-center">
-        ini buat navbar
-    </div>
+    <x-navbar/>
 
 
     <!-- Start carousel -->
-    <div class="max-w-4xl mx-auto mt-4 mb-4">
+    <div class="max-w-4xl mx-auto mt-36 mb-4">
 
         <div id="default-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
@@ -126,7 +124,8 @@
         </div>
 
         <div class="z-20 flex flex-row justify-center items-center -ml-10">
-            <div
+            <a
+                href="{{ URL::route('product') }}"
                 class="cursor-pointer flex flex-col w-48 h-72 bg-white text-black rounded-2xl shadow-[4px_4px_10px_1px_rgba(0,0,0,0.25)] text-center justify-center items-start mr-6 font-bold text-base p-4">
                 <img src="{{ URL::to('/') }}/image/sandsberg.png" class="z-20 object-contain mb-4" alt="...">
                 <div>
@@ -139,7 +138,7 @@
                 <div>
                     Rp. 10.000
                 </div>
-            </div>
+            </a>
 
             <div
                 class="cursor-pointer flex flex-col w-48 h-72 bg-white text-black rounded-2xl shadow-[4px_4px_10px_1px_rgba(0,0,0,0.25)] text-center justify-center items-start mr-6 font-bold text-base p-4">
@@ -343,6 +342,55 @@
         </div>
 
     </div>
+    <footer class="mt-36">
+        <div class="background-footer object-cover w-full footer-size flex flex-col justify-center items-center" style="background-image: url({{ URL::to('/') }}/image/Background-Footer.png)">
+          <div class="footer-content flex flex-row text-2xl justify-evenly w-full text-white">
+            <div class="baris1">
+              <ul>
+                <li class="font-bold underline-offset-4">Navigation</li>
+                <li class="">Home</li>
+                <li class="">Profile</li>
+                <li class="">Chart</li>
+                <li class="">Favorite</li>
+              </ul>
+            </div>
+            <div class="baris2">
+              <ul>
+                <li class="font-bold underline-offset-4">Product</li>
+                <li class="">Chair</li>
+                <li class="">Table</li>
+                <li class="">Wardrobe</li>
+                <li class="">Shelf</li>
+                <li class="">Bed Frame</li>
+              </ul>
+            </div>
+            <div class="baris3">
+              <ul>
+                <li class="font-bold underline-offset-4">Help</li>
+                <li class="">Contact Us</li>
+                <li class="">FAQ</li>
+                <li class="">Store Location</li>
+              </ul>
+            </div>
+            <div class="baris4">
+              <h3 class="font-bold">Sign up to get 25% off your first order</h3>
+              <div class="email-input-button">
+                <input type="text" name="" id="" placeholder="Your Email Address..." class="text-center mt-6 mr-4 rounded-2xl text-base w-80 h-11 text-black placeholder-black" />
+                <button class="bg-amber-800 rounded-3xl w-32 h-11 translate-y-1">Sign Up</button>
+                <ul class="list-none flex flex-row justify-evenly items-center mt-11">
+                  <li class=""><img src="{{ URL::to('/') }}/image/Facebook.png" alt="" /></li>
+                  <li class=""><img src="{{ URL::to('/') }}/image/Instagram.png" alt="" /></li>
+                  <li class=""><img src="{{ URL::to('/') }}/image/Tiktok.png" alt="" /></li>
+                  <li class=""><img src="{{ URL::to('/') }}/image/Whatsapp.png" alt="" /></li>
+                  <li class=""><img src="{{ URL::to('/') }}/image/Youtube.png" alt="" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="copyright mt-14 text-white"><p>Copyright @ 2023 M-ABLE, Inc.</p></div>
+        </div>
+      </footer>
+
 
 </body>
 

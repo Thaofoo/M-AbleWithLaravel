@@ -30,7 +30,7 @@
     <x-navbar/>
 
     <!-- List Barang Checkout -->
-    <div class="mt-16 ">
+    <div class="mt-36">
         <!-- List Header -->
         <div class="font-medium text-gray-700 my-3 mx-28 flex justify-end">
             <P class="mx-36">Jumlah</P>
@@ -365,9 +365,9 @@
             <div class="font-light text-sm mr-3 text-gray-500">
                 <u>Gunakan kode promo?</u>
             </div>
-            <div class="rounded-full bg-mable flex items-center justify-center px-48 py-2.5 text-sm text-white font-semibold">
+            <a href="{{ URL::route('waiting') }}" class="rounded-full bg-mable flex items-center justify-center px-48 py-2.5 text-sm text-white font-semibold">
                 Buat Pesanan
-            </div>
+            </a>
         </div>
     </nav>
 

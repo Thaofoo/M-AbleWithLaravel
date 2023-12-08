@@ -28,8 +28,12 @@
     }
 </style>
 
+
+
 <body class="bg-white">
-    <div class="flex items-center justify-center min-h-screen mt-16">
+
+    <x-navbar/>
+    <div class="flex items-center justify-center min-h-screen mt-36">
         <div class="w-full flex flex-col items-center">
             <ul class="flex items-start gap-x-24 timeline">
                 <li class="flex items-center justify-center flex-col relative">
