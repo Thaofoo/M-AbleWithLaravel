@@ -13,7 +13,7 @@
     <x-navbar/>
     <!-- Navbar End -->
     <!-- Content Start -->
-    <div class="flex flex-row justify-evenly mt-32">
+    <div class="flex flex-row justify-evenly mt-32 font-poppins">
         <div class="blank">
 
         </div>

@@ -30,7 +30,7 @@
 
 
 
-<body class="bg-white">
+<body class="bg-white font-poppins">
 
     <x-navbar/>
     <div class="flex items-center justify-center min-h-screen mt-36">
