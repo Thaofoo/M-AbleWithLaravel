@@ -342,7 +342,8 @@
         </div>
 
     </div>
-    <footer class="mt-36">
+    <x-footer/>
+    {{-- <footer class="mt-36">
         <div class="background-footer object-cover w-full footer-size flex flex-col justify-center items-center" style="background-image: url({{ URL::to('/') }}/image/Background-Footer.png)">
           <div class="footer-content flex flex-row text-2xl justify-evenly w-full text-white">
             <div class="baris1">
@@ -389,7 +390,7 @@
           </div>
           <div class="copyright mt-14 text-white"><p>Copyright @ 2023 M-ABLE, Inc.</p></div>
         </div>
-      </footer>
+      </footer> --}}
 
 
 </body>

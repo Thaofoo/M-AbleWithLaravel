@@ -189,6 +189,7 @@
     </div>
     <!-- Content End -->
     <!-- Footer Start -->
+    <x-footer/>
     <!-- Footer End -->
 </body>
 </html>

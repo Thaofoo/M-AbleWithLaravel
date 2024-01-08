@@ -110,7 +110,7 @@
         </div>
         <div class="button flex mt-5 items-center w-80">
           <div class="chart"><button class="bg-white hover:bg-gray-100 text-gray-800 border border-yellow-950 rounded-xl shadow font-semibold w-32 h-10 text-center text-xl">+ Chart</button></div>
-          <div class="buy-now"><button class="bg-yellow-950 text-white border border-yellow-950 rounded-xl shadow font-semibold w-32 h-10 text-center text-xl ml-3 mr-5">Buy Now</button></div>
+          <a  href="{{ URL::route('checkout') }}" class="buy-now"><button class="bg-yellow-950 text-white border border-yellow-950 rounded-xl shadow font-semibold w-32 h-10 text-center text-xl ml-3 mr-5">Buy Now</button></a>
           <i class="fa-regular fa-heart fa-2xl m-auto" style="color: #6c4933; cursor: pointer" id="heartIcon" onclick="toggleHeartIcon()"></i>
         </div>
       </div>
