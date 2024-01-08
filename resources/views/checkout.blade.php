@@ -339,7 +339,7 @@
                     <div class="border-t w-full h-[3.3rem] border-gray-300 flex justify-between items-center text-[0.8125rem]  text-gray-600">
                         <div class="font-semibold">Total termasuk pajak</div>
                         <div class="font-semibold">Rp 670.000,00</div>
-                    </div >
+                    </div >Isi
                     <div class="border-t w-full h-[3.3rem] border-gray-300 flex justify-between items-center text-[0.8125rem]  text-gray-600">
                         <div class="font-semibold">Pilih metode pembayaran</div>
                         <div class="flex">

@@ -1,3 +1,63 @@
+<head>
+
+    <style>
+        .footer-size {
+          height: 555px;
+        }
+        .list-size {
+          width: 306px;
+        }
+        .image-list-size {
+          height: 70px;
+          width: 70px;
+        }
+        input:focus {
+          outline: none;
+        }
+        .searchbar-size-form {
+          height: 47px;
+          width: 700px;
+        }
+        .searchbar-size {
+          border: 1px solid black;
+          display: flex;
+          flex-direction: row;
+          height: 50px;
+          width: 800px;
+          align-items: center;
+        }
+        .height-nav {
+          height: 100px;
+        }
+        .height-carousel {
+          height: 410;
+        }
+        .width-divider {
+          width: 600px;
+        }
+        .border-thin {
+          border-width: 0.1px;
+        }
+        .width-comment {
+          width: 1000px;
+        }
+        .width-komentar {
+          width: 580px;
+        }
+        /* Menghilangkan increase decrease arrow ketika dihover */
+        input[type='number'] {
+          -moz-appearance: textfield;
+        }
+
+        input[type='number']::-webkit-inner-spin-button,
+        input[type='number']::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      </style>
+
+</head>
+
 <footer class="mt-36 ">
     <div class="background-footer object-cover w-full footer-size flex flex-col justify-center items-center pt-8" style="background-image: url({{ URL::to('/') }}/image/Background-Footer.png)">
       <div class="footer-content flex flex-row text-2xl justify-evenly w-full text-white">

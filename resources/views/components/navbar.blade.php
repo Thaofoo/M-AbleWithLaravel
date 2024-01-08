@@ -1,10 +1,10 @@
-<nav class="w-full h-24 shadow-lg flex flex-row justify-evenly items-center fixed z-50 bg-white top-0">
+<nav class="w-full h-20 shadow-lg flex flex-row justify-evenly items-center fixed z-50 bg-white top-0">
     <a href="{{ URL::route('landing') }}" class="logo"><img src="{{ URL::to('/') }}/image/logo.png" alt="" /></a>
     <div class="searchbar">
       <form method="GET">
-        <div class="input-form text-black bg-gray-200 p-2 rounded-2xl border border-black flex flex-row h-12 w-[50rem] items-center justify-start">
+        <div class="h-9 input-form text-black bg-gray-200 p-2 rounded-xl border border-black flex flex-row h-8 w-[50rem] items-center justify-start">
           <i class="fa-solid fa-magnifying-glass ml-2"></i>
-          <input type="text" id="form" placeholder="Cari" class="p-0 h-[1.7rem] w-[43.75rem] bg-gray-200 text-black placeholder-black ml-3 border-none" />
+          <input type="text" id="form" placeholder="Cari" class="focus:border-transparent focus:ring-0 p-0 h-[1.7rem] w-[43.75rem] bg-gray-200 text-black placeholder-black ml-3 border-none" />
         </div>
       </form>
     </div>
